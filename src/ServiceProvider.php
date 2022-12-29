@@ -1,6 +1,6 @@
 <?php
 
-namespace Jeroenpeters1986\StatamicLikeBox;
+namespace Jeroenpeters1986\StatamicLikebox;
 
 use Illuminate\Support\Facades\File;
 use Statamic\Providers\AddonServiceProvider;

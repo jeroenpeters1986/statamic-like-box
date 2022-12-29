@@ -1,18 +1,18 @@
 {
-    "name": "jeroenpeters1986/statamic-like-box",
+    "name": "jeroenpeters1986/statamic-likebox",
     "autoload": {
         "psr-4": {
-            "Jeroenpeters1986\\StatamicLikeBox\\": "src"
+            "Jeroenpeters1986\\StatamicLikebox\\": "src"
         }
     },
     "extra": {
         "statamic": {
-            "name": "Statamic Like Box",
-            "description": "Statamic Like Box addon"
+            "name": "Facebook Like Box embed for Statamic",
+            "description": "Display an embed of your Facebook page with instant Like button. Very customizable."
         },
         "laravel": {
             "providers": [
-                "Jeroenpeters1986\\StatamicLikeBox\\ServiceProvider"
+                "Jeroenpeters1986\\StatamicLikebox\\ServiceProvider"
             ]
         }
     }

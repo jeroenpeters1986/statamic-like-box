@@ -1,6 +1,6 @@
 <?php
 
-namespace Jeroenpeters1986\StatamicLikeBox\Tags;
+namespace Jeroenpeters1986\StatamicLikebox\Tags;
 
 use Statamic\Tags\Tags;
 
