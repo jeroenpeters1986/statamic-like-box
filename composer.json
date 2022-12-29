@@ -1,0 +1,19 @@
+{
+    "name": "jeroenpeters1986/statamic-like-box",
+    "autoload": {
+        "psr-4": {
+            "Jeroenpeters1986\\StatamicLikeBox\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Like Box",
+            "description": "Statamic Like Box addon"
+        },
+        "laravel": {
+            "providers": [
+                "Jeroenpeters1986\\StatamicLikeBox\\ServiceProvider"
+            ]
+        }
+    }
+}
