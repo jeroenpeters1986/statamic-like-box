@@ -15,5 +15,9 @@
                 "Jeroenpeters1986\\StatamicLikebox\\ServiceProvider"
             ]
         }
+    },
+    "require": {
+        "php": "^7.3",
+        "statamic/cms": "~3.3"
     }
 }
