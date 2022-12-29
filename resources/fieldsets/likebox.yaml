@@ -1,0 +1,201 @@
+title: 'Facebook Like box'
+description:
+  display: Description
+  type: textarea
+fields:
+  -
+    handle: page
+    field:
+      input_type: text
+      antlers: false
+      display: 'Facebook page'
+      type: text
+      icon: text
+      instructions: "If your page is facebook.com/quoteshirts, only insert 'quoteshirts' here"
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      validate:
+        - required
+  -
+    handle: width
+    field:
+      default: '240'
+      display: 'Width of the Likebox'
+      type: integer
+      icon: integer
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: height
+    field:
+      display: 'Height of the Like box'
+      type: integer
+      icon: integer
+      instructions: 'You can set the height manually, but we recommend that you leave this empty to let the Like box adjust automatically'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: hide_header_cover
+    field:
+      default: false
+      display: 'Hide the page-header cover?'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: compact_header
+    field:
+      default: false
+      display: 'Compact layout'
+      type: toggle
+      icon: toggle
+      instructions: 'Display the like-button next to the page avatar and make the header compact, this saves some space'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: content_tabs
+    field:
+      options:
+        'null': 'No extra content'
+        timeline: 'Show timeline updates'
+        events: 'Show events'
+        'timeline,events': 'Show timeline updates and events'
+        'timeline,messages': 'Show timeline and Messenger'
+        'timeline,events,messages': 'Show timeline, events and Messenger'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Extra content'
+      type: select
+      icon: select
+      instructions: 'You can just show a Like box, or expand it with some extra content from your Facebook page'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: language
+    field:
+      options:
+        'en_US': 'English - English'
+        'fr_FR': 'French (France) - Français'
+        'es_ES': 'Spanish (Spain) - Español (España)'
+        'nl_NL': 'Dutch - Nederlands'
+        'de_DE': 'German - Deutsch'
+        'it_IT': 'Italian - Italiano'
+        'ru_RU': 'Russian - Русский'
+        'zh_CN': 'Simplified Chinese - 中文(简体'
+        'pt_BR': 'Portuguese (Brazil) - Português (Brasil)'
+        'id_ID': 'Indonesian - Bahasa Indonesia'
+        'tr_TR': 'Turkish - Türkçe'
+        'fr_CA': 'French (Canada) - Français'
+        'af_ZA': 'Afrikaans - Afrikaans'
+        'gn_PY': 'Guaraní - Avañeẽ'
+        'ay_BO': 'Aymara - Aymar aru'
+        'az_AZ': 'Azeri - Azərbaycan dili'
+        'ms_MY': 'Malay - Bahasa Melayu'
+        'jv_ID': 'Javanese - Basa Jawa'
+        'bs_BA': 'Bosnian - Bosanski'
+        'ca_ES': 'Catalan - Català'
+        'cs_CZ': 'Czech - Čeština'
+        'ck_US': 'Cherokee - Cherokee'
+        'cy_GB': 'Welsh - Cymraeg'
+        'da_DK': 'Danish - Dansk'
+        'se_NO': 'Northern Sámi - Davvisámegiella'
+        'et_EE': 'Estonian - Eesti'
+        'en_IN': 'English (India) - English (India)'
+        'en_GB': 'English (UK) - English (UK)'
+        'es_LA': 'Spanish - Español'
+        'es_CL': 'Spanish (Chile) - Español (Chile)'
+        'es_CO': 'Spanish (Colombia) - Español (Colombia)'
+        'es_MX': 'Spanish (Mexico) - Español (México)'
+        'es_VE': 'Spanish (Venezuela) - Español (Venezuela)'
+        'eo_EO': 'Esperanto - Esperanto'
+        'eu_ES': 'Basque - Euskara'
+        'tl_PH': 'Filipino - Filipino'
+        'fo_FO': 'Faroese - Føroyskt'
+        'fy_NL': 'Frisian - Frysk'
+        'ga_IE': 'Irish - Gaeilge'
+        'gl_ES': 'Galician - Galego'
+        'ko_KR': 'Korean - 한국어'
+        'hr_HR': 'Croatian - Hrvatski'
+        'xh_ZA': 'Xhosa - isiXhosa'
+        'zu_ZA': 'Zulu - isiZulu'
+        'is_IS': 'Icelandic - Íslenska'
+        'sw_KE': 'Swahili - Kiswahili'
+        'tl_ST': 'Klingon - tlhIngan-Hol'
+        'ku_TR': 'Kurdish - Kurdî'
+        'lv_LV': 'Latvian - Latviešu'
+        'lt_LT': 'Lithuanian - Lietuvių'
+        'li_NL': 'Limburgish - Lèmbörgs'
+        'la_VA': 'Latin - lingua latina'
+        'hu_HU': 'Hungarian - Magyar'
+        'mg_MG': 'Malagasy - Malagasy'
+        'mt_MT': 'Maltese - Malti'
+        'nl_BE': 'Dutch (Flemish) - Nederlands (België)'
+        'ja_JP': 'Japanese - 日本語'
+        'nb_NO': 'Norwegian (bokmal) - Norsk (bokmål)'
+        'nn_NO': 'Norwegian (nynorsk) - Norsk (nynorsk)'
+        'uz_UZ': 'Uzbek - Ozbek'
+        'pl_PL': 'Polish - Polski'
+        'pt_PT': 'Portuguese (Portugal - Português (Portugal)'
+        'qu_PE': 'Quechua - Qhichwa'
+        'ro_RO': 'Romanian - Română'
+        'rm_CH': 'Romansh - Rumantsch'
+        'sq_AL': 'Albanian - Shqip'
+        'sk_SK': 'Slovak - Slovenčina'
+        'sl_SI': 'Slovenian - Slovenščina'
+        'so_SO': 'Somali - Soomaaliga'
+        'fi_FI': 'Finnish - Suomi'
+        'sv_SE': 'Swedish - Svenska'
+        'th_TH': 'Thai - ภาษาไทย'
+        'vi_VN': 'Vietnamese - Tiếng Việt'
+        'zh_TW': 'Traditional Chinese, Taiwan - 中文(台灣'
+        'zh_HK': 'Traditional Chinese, Hong Kong - 中文(香港'
+        'el_GR': 'Greek - Ελληνικά'
+        'be_BY': 'Belarusian - Беларуская'
+        'bg_BG': 'Bulgarian - Български'
+        'kk_KZ': 'Kazakh - Қазақша'
+        'mk_MK': 'Macedonian - Македонски'
+        'mn_MN': 'Mongolian - Монгол'
+        'sr_RS': 'Serbian - Српски'
+        'uk_UA': 'Ukrainian - Українська'
+        'he_IL': 'Hebrew - ‏עברית‏'
+        'sy_SY': 'Syriac - ‏ܐܪܡܝܐ‏'
+        'ne_NP': 'Nepali - नेपाली'
+        'hi_IN': 'Hindi - हिन्दी'
+        'bn_IN': 'Bengali - বাংলা'
+        'pa_IN': 'Punjabi - ਪੰਜਾਬੀ'
+        'ta_IN': 'Tamil - தமிழ்'
+        'en_PI': 'English (Pirate)'
+        'en_UD': 'English (Upside Down)'
+        'fb_LT': 'Leetspeak'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      default: 'en_US'
+      push_tags: false
+      cast_booleans: false
+      display: 'Language for the Likebox'
+      type: select
+      icon: select
+      instructions: 'You can choose in which language the Likebox should be displayed'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
