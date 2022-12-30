@@ -1,4 +1,7 @@
 title: 'Facebook Likebox'
+description:
+  display: Description
+  type: textarea
 fields:
   -
     handle: page

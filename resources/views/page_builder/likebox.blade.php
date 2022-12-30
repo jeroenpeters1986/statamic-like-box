@@ -13,7 +13,7 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = '//connect.facebook.net/{{ $fields['page'] ?? 'en_US' }}/all.js#xfbml=1&appId=';
+    js.src = '//connect.facebook.net/{{ $fields['language'] ?? 'en_US' }}/all.js#xfbml=1&appId=';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 </script>
