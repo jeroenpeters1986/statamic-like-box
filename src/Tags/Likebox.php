@@ -25,8 +25,8 @@ class Likebox extends Tags
 
         return "<div class='fb-page'
              data-href='https://www.facebook.com/{$page_name}'
-             data-width='{$width}'
-             data-height='{$height}'
+             data-width='{$width}' 
+             " . $height ?? " data-height='" . $height . "'" . "
              data-tabs='{$content_tabs}'
              data-hide-cover='{$hide_cover}'
              data-small-header='{$compact_header}'></div>

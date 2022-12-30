@@ -22,9 +22,9 @@ class ServiceProvider extends AddonServiceProvider
         if( file_exists($pagebuilder_yaml_path)) {
             $pagebuilderSet = Yaml::parseFile($pagebuilder_yaml_path);
 
-            File::put('resources/fieldsets/likebox.yaml',
+            File::put(base_path('resources/fieldsets/likebox.yaml'),
                 file_get_contents(__DIR__ . '/../resources/fieldsets/likebox.yaml'));
-            File::put('resources/views/page_builder/likebox.blade.php',
+            File::put(base_path('resources/views/page_builder/likebox.blade.php'),
                 file_get_contents(__DIR__ . '/../resources/views/page_builder/likebox.blade.php'));
 
             $existingSets = Arr::get($pagebuilderSet, 'fields.0.field.sets');
