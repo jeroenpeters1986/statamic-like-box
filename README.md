@@ -44,6 +44,14 @@ a button to like the page and a fan-count.
  * `hide_header_cover` Whether to choose a neutral background instead of the uploaded page cover image. Can be `true` or `false`, default `true`
  * `content_tabs` If this is provided, the box will grow and can show tabs with events, timeline and messages. These can be combined into a single, comma separated string like `timeline,events,messages`, or just `timeline`. You can choose the order and the amount of tabs to show. By default, this is off.
 
+So if you combine lots of these options you can end up with an Antlers tag like this:
+`{{ likebox page='quoteshirts' width='320' lang='nl_NL' content_tabs='timeline,events' hide_header_cover='false' compact_header='true' }}`
+
+### When you have the PEAK starter kit installed
+If you have the PEAK started kit installed, you're in luck! You can just edit any page from the 
+Control Panel and add the 'Facebook likebox' block to the page. You will be presented with all 
+the options above in a comfortable manner.
+
 ## Requirements
 - PHP 7.4 or 8.0
 - Laravel 7 or 8
