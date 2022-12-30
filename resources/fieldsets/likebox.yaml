@@ -1,7 +1,4 @@
-title: 'Facebook Like box'
-description:
-  display: Description
-  type: textarea
+title: 'Facebook Likebox'
 fields:
   -
     handle: page
