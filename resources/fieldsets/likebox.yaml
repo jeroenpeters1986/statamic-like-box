@@ -181,9 +181,7 @@ fields:
         'bn_IN': 'Bengali - বাংলা'
         'pa_IN': 'Punjabi - ਪੰਜਾਬੀ'
         'ta_IN': 'Tamil - தமிழ்'
-        'en_PI': 'English (Pirate)'
         'en_UD': 'English (Upside Down)'
-        'fb_LT': 'Leetspeak'
       multiple: false
       clearable: false
       searchable: true
