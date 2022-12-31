@@ -2,21 +2,14 @@
 <!-- statamic:hide -->
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeroenpeters1986/statamic-likebox.svg?style=for-the-badge)](https://packagist.org/packages/jeroenpeters1986/statamic-likebox)
+[![Number of downloads](https://img.shields.io/packagist/dt/jeroenpeters1986/statamic-likebox.svg?style=for-the-badge)](https://packagist.org/packages/jeroenpeters1986/statamic-likebox)
 <!-- /statamic:hide -->
 
-## Features
+## Main Features
 
  * Simply display a Facebook Like box on your website (using a Tag)
  * Comfortable configurable
  * Support for the PEAK pagebuilder (so you can just add it from the Control Panel)
-
-## How to Install
-
-You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
-
-``` bash
-composer require jeroenpeters1986/statamic-likebox
-```
 
 ## How to Use
 
@@ -52,20 +45,28 @@ If you have the PEAK started kit installed, you're in luck! You can just edit an
 Control Panel and add the 'Facebook likebox' block to the page. You will be presented with all 
 the options above in a comfortable manner.
 
-## Requirements
+## How to Install
+
+You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
+
+``` bash
+composer require jeroenpeters1986/statamic-likebox
+```
+
+### Requirements
 - PHP 7.4 or 8.0
 - Laravel 7 or 8
 - Statamic 3
 
-# Support
+## Support
 I love to share with the community. Nevertheless, coding/learning/updating takes a lot of work, time and effort.
 
 If you like my software, feel free to [buy me a coffee or two with Ko-Fi](https://ko-fi.com/jeroenpeters) 
 
-# License
+## License
 This plugin is published under the MIT license.
 
-# Disclaimer
+## Disclaimer
 This add-on is not affiliated, associated, authorized, endorsed by, or in any way officially connected with 
 Facebook / Meta, or any of its subsidiaries or its affiliates. This add-on merely enables users to easily implement
 a Facebook widget on their website. The official Facebook website can be found at https://facebook.com
