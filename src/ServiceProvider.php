@@ -17,15 +17,15 @@ class ServiceProvider extends AddonServiceProvider
     public function register()
     {
         $pagebuilder_yaml_path = base_path('resources/fieldsets/page_builder.yaml');
+        $likebox_yaml_path = base_path('resources/fieldsets/likebox.yaml');
+        $likebox_template_path = base_path('resources/views/page_builder/likebox.blade.php');
 
         /* Install pagebuilder block if Peak starter kit is installed, also using Peak code by Studio1902 */
-        if( file_exists($pagebuilder_yaml_path)) {
+        if( file_exists($pagebuilder_yaml_path) && ! file_exists($pagebuilder_yaml_path) && ! file_exists($likebox_template_path)) {
             $pagebuilderSet = Yaml::parseFile($pagebuilder_yaml_path);
 
-            File::put(base_path('resources/fieldsets/likebox.yaml'),
-                file_get_contents(__DIR__ . '/../resources/fieldsets/likebox.yaml'));
-            File::put(base_path('resources/views/page_builder/likebox.blade.php'),
-                file_get_contents(__DIR__ . '/../resources/views/page_builder/likebox.blade.php'));
+            File::put($likebox_yaml_path, file_get_contents(__DIR__ . '/../resources/fieldsets/likebox.yaml'));
+            File::put($likebox_template_path, file_get_contents(__DIR__ . '/../resources/views/page_builder/likebox.blade.php'));
 
             $existingSets = Arr::get($pagebuilderSet, 'fields.0.field.sets');
             $existingSets['likebox'] = ['display' => 'Facebook Likebox', 'fields' => [['import' => 'likebox']]];
