@@ -56,7 +56,7 @@ composer require jeroenpeters1986/statamic-likebox
 ### Requirements
 - PHP 7.4 or 8.0
 - Laravel 7 or 8
-- Statamic 3
+- Statamic 3.3+
 
 ## Support
 I love to share with the community. Nevertheless, coding/learning/updating takes a lot of work, time and effort.
