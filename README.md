@@ -63,6 +63,17 @@ I love to share with the community. Nevertheless, coding/learning/updating takes
 
 If you like my software, feel free to [buy me a coffee or two with Ko-Fi](https://ko-fi.com/jeroenpeters) 
 
+## Changelog
+
+### 1.0.2
+Updated requirements, so you can also install/use it on Statamic 3.4!
+
+### 1.0.1
+Optimized the installation in the PEAK Pagebuilder
+
+### 1.0.0
+First version
+
 ## License
 This plugin is published under the MIT license.
 
