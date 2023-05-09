@@ -1,6 +1,6 @@
 # Facebook Like box for Statamic
 <!-- statamic:hide -->
-![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
+![Statamic 3.3+](https://img.shields.io/badge/Statamic-3.0%20|%204-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeroenpeters1986/statamic-likebox.svg?style=for-the-badge)](https://packagist.org/packages/jeroenpeters1986/statamic-likebox)
 [![Number of downloads](https://img.shields.io/packagist/dt/jeroenpeters1986/statamic-likebox.svg?style=for-the-badge)](https://packagist.org/packages/jeroenpeters1986/statamic-likebox)
 <!-- /statamic:hide -->
@@ -56,7 +56,7 @@ composer require jeroenpeters1986/statamic-likebox
 ### Requirements
 - PHP 7.4 or 8.0
 - Laravel 7 or 8
-- Statamic 3.3+
+- Statamic 3.0+ or Statamic 4
 
 ## Support
 I love to share with the community. Nevertheless, coding/learning/updating takes a lot of work, time and effort.
@@ -64,6 +64,9 @@ I love to share with the community. Nevertheless, coding/learning/updating takes
 If you like my software, feel free to [buy me a coffee or two with Ko-Fi](https://ko-fi.com/jeroenpeters) 
 
 ## Changelog
+
+### 1.0.3
+Statamic 4 support
 
 ### 1.0.2
 Updated requirements, so you can also install/use it on Statamic 3.4!
