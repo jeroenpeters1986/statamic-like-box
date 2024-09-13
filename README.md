@@ -1,6 +1,6 @@
 # Facebook Like box for Statamic
 <!-- statamic:hide -->
-![Statamic 3.3+](https://img.shields.io/badge/Statamic-3.0%20|%204-FF269E?style=for-the-badge&link=https://statamic.com)
+![Statamic 3.3+](https://img.shields.io/badge/Statamic-3.0%20|%204%20|%205-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeroenpeters1986/statamic-likebox.svg?style=for-the-badge)](https://packagist.org/packages/jeroenpeters1986/statamic-likebox)
 [![Number of downloads](https://img.shields.io/packagist/dt/jeroenpeters1986/statamic-likebox.svg?style=for-the-badge)](https://packagist.org/packages/jeroenpeters1986/statamic-likebox)
 <!-- /statamic:hide -->
